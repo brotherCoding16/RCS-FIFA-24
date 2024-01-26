@@ -1,0 +1,31 @@
+[{
+        "MatchNumber": 1,
+        "RoundNumber": 1,
+        "DateUtc": "2022-11-20 16:00:00Z",
+        "Location": "Al Bayt Stadium",
+        "HomeTeam": "Qatar",
+        "AwayTeam": "Ecuador",
+        "flag": [
+            "https://world-cup.codsfli.com/flag/QAT.png",
+            "https://world-cup.codsfli.com/flag/ECU.png"
+        ],
+        "Group": "Group A",
+        "HomeTeamScore": null,
+        "AwayTeamScore": null
+    },
+    {
+        "MatchNumber": 3,
+        "RoundNumber": 1,
+        "DateUtc": "2022-11-21 13:00:00Z",
+        "Location": "Khalifa International Stadium",
+        "HomeTeam": "England",
+        "AwayTeam": "Iran",
+        "flag": [
+            "https://world-cup.codsfli.com/flag/ENG.png",
+            "https://world-cup.codsfli.com/flag/IRN.png"
+        ],
+        "Group": "Group B",
+        "HomeTeamScore": 3,
+        "AwayTeamScore": 2
+    }
+]
