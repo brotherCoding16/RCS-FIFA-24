@@ -5,11 +5,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
 	<link rel="stylesheet" href="nav1.css">
 	<link rel="stylesheet" type="text/css"
 		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 	<link rel="stylesheet" href="style.css">
-	<title>Responsive Navbar using HTML & CSS</title>
+	<title>Home</title>
 </head>
 <style>
 	* {
@@ -84,8 +85,7 @@
 
 	.navbar .link:hover,
 	.link.active {
-		color: rgb(var(--main-bg-color));
-		background-color: var(--main-color);
+		
 	}
 
 	/* display */
@@ -118,6 +118,7 @@
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
+		
 	}
 
 	.tab .matches .container .match-container {
@@ -127,7 +128,7 @@
 		border-radius: 5px;
 
 		padding: 0.5rem;
-		margin: 0.25rem;
+		margin: 0;
 
 		max-width: 400px;
 	}
@@ -243,7 +244,9 @@
 	.standings .group .team .name * {
 		margin-left: 0.5rem;
 	}
-
+	.container{
+		background-color: black;
+	}
 	.standings .group .team img {
 		width: 24px;
 		height: 24px;
@@ -320,7 +323,8 @@
 		background-color: var(--color-bg-primary);
 		display: flex;
 		flex-direction: column;
-		min-width: 600px;
+		min-width: 200px;
+		
 		border-radius: 10px;
 		box-shadow: 0 0 2px 0 rgba(#303030, 0.1), 0 4px 4px 0 rgba(#303030, 0.1);
 	}
@@ -505,27 +509,16 @@
 		box-shadow: 0 4px 8px 0 rgba(#303030, 0.25);
 	}
 
-	// Codepen spesific styling - only to center the elements in the pen preview and viewport
-	.container {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		width: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+
 </style>
 <body>
 	<header>
-		<div class="logo">EVLEARN</div>
+		<div class="logo">RCS FIFA</div>
 		<input type="checkbox" id="nav_check" hidden>
 		<nav>
 			<ul>
 				<li>
-					<a href="" class="active">Home</a>
+					<a href="index.html" class="active">Home</a>
 				</li>
 				<li>
 					<a href="schedule.html">Schedule</a>
@@ -542,6 +535,7 @@
 			<div></div>
 		</label>
 	</header>
+	<br>
 	<div>
 
 		<div class="container">
@@ -562,6 +556,7 @@
 		</div>
 		
 		<div class="container">
+			<br>
 			<!-- code here -->
 			<div class="match">
 				<div class="match-header">
@@ -614,66 +609,67 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<br>
-		
-		<div class="container">
-			<!-- code here -->
-			<div class="match">
-				<div class="match-header">
-					<div class="match-status">Upcoming</div>
-					<div class="match-tournament"><img src="https://assets.codepen.io/285131/pl-logo.svg" />RCS FIFA LEAGUE
-					</div>
-					<div class="match-actions">
-						<button class="btn-icon"><i class="material-icons-outlined">grade</i></button>
-						<button class="btn-icon"><i class="material-icons-outlined">add_alert</i></button>
-					</div>
-				</div>
-				<div class="match-content">
-					<div class="column">
-						<div class="team team--home">
-							<div class="team-logo">
-								<img src="https://assets.codepen.io/285131/whufc.svg" />
-							</div>
-							<h2 class="team-name">West Ham</h2>
+			<br>
+			<div class="container">
+				<!-- code here -->
+				<div class="match">
+					<div class="match-header">
+						<div class="match-status">Upcoming</div>
+						<div class="match-tournament"><img src="https://assets.codepen.io/285131/pl-logo.svg" />RCS FIFA LEAGUE
+						</div>
+						<div class="match-actions">
+							<button class="btn-icon"><i class="material-icons-outlined">grade</i></button>
+							<button class="btn-icon"><i class="material-icons-outlined">add_alert</i></button>
 						</div>
 					</div>
-					<div class="column">
-						<div class="match-details">
-							<div class="match-date">
-								date at <strong>time</strong>
+					<div class="match-content">
+						<div class="column">
+							<div class="team team--home">
+								<div class="team-logo">
+									<img src="https://assets.codepen.io/285131/whufc.svg" />
+								</div>
+								<h2 class="team-name">West Ham</h2>
 							</div>
-							<div class="match-score">
-								<span class="match-score-number match-score-number--leading">2</span>
-								<span class="match-score-divider">:</span>
-								<span class="match-score-number">0</span>
-							</div>
-							<div class="match-time-lapsed">
-								72'
-							</div>
-							<div class="match-referee">
-								WIN: <strong>Name</strong>
-							</div>
-							<div class="match-bet-options">
-		
-							</div>
-		
 						</div>
-					</div>
-					<div class="column">
-						<div class="team team--away">
-							<div class="team-logo">
-								<img src="https://assets.codepen.io/285131/chelsea.svg" />
+						<div class="column">
+							<div class="match-details">
+								<div class="match-date">
+									date at <strong>time</strong>
+								</div>
+								<div class="match-score">
+									<span class="match-score-number match-score-number--leading">2</span>
+									<span class="match-score-divider">:</span>
+									<span class="match-score-number">0</span>
+								</div>
+								<div class="match-time-lapsed">
+									72'
+								</div>
+								<div class="match-referee">
+									WIN: <strong>Name</strong>
+								</div>
+								<div class="match-bet-options">
+			
+								</div>
+			
 							</div>
-							<h2 class="team-name">Chelsea</h2>
+						</div>
+						<div class="column">
+							<div class="team team--away">
+								<div class="team-logo">
+									<img src="https://assets.codepen.io/285131/chelsea.svg" />
+								</div>
+								<h2 class="team-name">Chelsea</h2>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			<br>
+			</div>
+			
 		</div>
-
-	</div>
-
+		<br>
+		<br>
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
@@ -690,10 +686,10 @@
 					<h4>get help</h4>
 					<ul>
 						<li><a href="#">FAQ</a></li>
-						<li><a href="#">shipping</a></li>
-						<li><a href="#">returns</a></li>
-						<li><a href="#">order status</a></li>
-						<li><a href="#">payment options</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="point">Points Table</a></li>
+						<li><a href="#">Schedule</a></li>
+						<li><a href="#">ayment options</a></li>
 					</ul>
 				</div>
 				<div class="footer-col">
@@ -701,7 +697,7 @@
 					<ul>
 						<li><a href="#">watch</a></li>
 						<li><a href="#">Join</a></li>
-						<li><a href="#">score</a></li>
+						<li><a href="index.html">score</a></li>
 						<li><a href="#">Team</a></li>
 					</ul>
 				</div>
@@ -715,6 +711,7 @@
 					</div>
 				</div>
 			</div>
+
 		</div>
 	</footer>
 
