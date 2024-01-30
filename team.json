@@ -1,0 +1,72 @@
+[
+    {
+        "group": "Group A",
+        "teams": [
+            {
+                "Team": "Qatar",
+                "flag": "https:\/\/world-cup.codsfli.com\/flag\/ESP.png",
+                "group": "Group A",
+                "name":"AFIQ"
+            },
+            {
+                "Team": "Qatar",
+                "flag": "https:\/\/world-cup.codsfli.com\/flag\/POL.png",
+                "group": "Group A",
+                "name": "SAYAN"
+            },
+            {
+               "Team": "Qatar",
+            "flag": "https:\/\/world-cup.codsfli.com\/flag\/ARG.png",
+            "group": "Group A",
+            "name": "ARABI"
+            },
+            {
+                "Team": "Qatar",
+                "flag": "https:\/\/world-cup.codsfli.com\/flag\/BRA.png",
+                "group": "Group A",
+                "name": "JUNAID"
+            },
+            {
+                "Team": "Qatar",
+                "flag": "https:\/\/world-cup.codsfli.com\/flag\/ENG.png",
+                "group": "Group A",
+                "name": "ROHIT"
+            }
+        ]
+    },
+    {
+        "group": "Group B",
+        "teams": [
+            {
+                "Team": "Qatar",
+                "flag": "https:\/\/world-cup.codsfli.com\/flag\/SUI.png",
+                "group": "Group A",
+                "name": "HASIBUL"
+            },
+            {
+                "Team": "Qatar",
+                "flag": "https:\/\/world-cup.codsfli.com\/flag\/GER.png",
+                "group": "Group A",
+                "name": "SAROOF"
+            },
+            {
+                "Team": "Qatar",
+                "flag": "https:\/\/world-cup.codsfli.com\/flag\/POR.png",
+                "group": "Group A",
+                "name": "MAHIN"
+            },
+            {
+                "Team": "Qatar",
+                "flag": "https:\/\/world-cup.codsfli.com\/flag\/FRA.png",
+                "group": "Group A",
+                "name": "ABRAR"
+            },
+            {
+                "Team": "Qatar",
+                "flag": "https:\/\/world-cup.codsfli.com\/flag\/MEX.png",
+                "group": "Group A",
+                "name": "NAFIS"
+            }
+        ]
+    }
+]
